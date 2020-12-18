@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/interpolation-plots-app/static/js/main.3bd7ae8f.chunk.js",
-    "main.js.map": "/interpolation-plots-app/static/js/main.3bd7ae8f.chunk.js.map",
+    "main.js": "/interpolation-plots-app/static/js/main.90812553.chunk.js",
+    "main.js.map": "/interpolation-plots-app/static/js/main.90812553.chunk.js.map",
     "runtime-main.js": "/interpolation-plots-app/static/js/runtime-main.d9f1015d.js",
     "runtime-main.js.map": "/interpolation-plots-app/static/js/runtime-main.d9f1015d.js.map",
-    "static/js/2.bb05318d.chunk.js": "/interpolation-plots-app/static/js/2.bb05318d.chunk.js",
-    "static/js/2.bb05318d.chunk.js.map": "/interpolation-plots-app/static/js/2.bb05318d.chunk.js.map",
+    "static/js/2.a80f3633.chunk.js": "/interpolation-plots-app/static/js/2.a80f3633.chunk.js",
+    "static/js/2.a80f3633.chunk.js.map": "/interpolation-plots-app/static/js/2.a80f3633.chunk.js.map",
     "index.html": "/interpolation-plots-app/index.html",
-    "static/js/2.bb05318d.chunk.js.LICENSE.txt": "/interpolation-plots-app/static/js/2.bb05318d.chunk.js.LICENSE.txt"
+    "static/js/2.a80f3633.chunk.js.LICENSE.txt": "/interpolation-plots-app/static/js/2.a80f3633.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d9f1015d.js",
-    "static/js/2.bb05318d.chunk.js",
-    "static/js/main.3bd7ae8f.chunk.js"
+    "static/js/2.a80f3633.chunk.js",
+    "static/js/main.90812553.chunk.js"
   ]
 }
