@@ -4,6 +4,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { MainDots } from '../../types';
 import LagrangeGraph from '../LagrangeGraph';
+import NewtonGraph from '../NewtonGraph';
+import SplineGraph from '../SplineGraph';
 
 import DotsCheckboxGroup from '../DotsCheckboxGroup';
 
@@ -38,6 +40,30 @@ const App: React.FC = () => {
 
   return (
     <div className={classes.root}>
+      <div className={classes.paper}>
+        <Typography variant="h3" gutterBottom>
+          Интерполяция сплайнами
+        </Typography>
+        <Grid container wrap="nowrap" spacing={2}>
+          <Grid item xs>
+            <SplineGraph />
+          </Grid>
+        </Grid>
+      </div>
+      <div className={classes.paper}>
+        <Typography variant="h3" gutterBottom>
+          Интерполяция Ньютона
+        </Typography>
+        <Grid container wrap="nowrap" spacing={2}>
+          <Grid item xs>
+            <Typography>
+              Выберите точки через которые проходит интерполяционный многочлен
+            </Typography>
+            <DotsCheckboxGroup dots={dots} setDots={setDots} />
+            <NewtonGraph points={points} />
+          </Grid>
+        </Grid>
+      </div>
       <div className={classes.paper}>
         <Typography variant="h3" gutterBottom>
           Интерполяция Лагранжа
